@@ -1,2 +1,2 @@
 #!/bin/bash
-tail --lines=1acta>>iacta
+tail --lines=1iacta>>iacta
