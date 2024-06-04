@@ -12,7 +12,7 @@
 - **Database**: organizes and store information for easy access.
 - **Client Server Communication**: happens over the internet through TCP/IP protocol suite.
 
-Issues with the infracstructure
+# Issues with the infracstructure
 - **SPOF**: Single Point Of Failure (SPOF), is a part of the system that, if it fails the whole entire system stops from working. E.g: A vulnerability or security exploit in just one component can compromise an entire system,  MySQL server downtime leads to entire site downtime.
 - **Downtime for Maintenance**: Maintenance requires component or server downtime, affecting the website.
 - **Limited Scalability**: Difficult to scale with increasing traffic, risking resource exhaustion and performance degradation.
