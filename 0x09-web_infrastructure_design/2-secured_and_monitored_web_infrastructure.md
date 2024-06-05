@@ -1,5 +1,7 @@
 ## Secured and Monitored Web Infrastructure
 
+![Image of a secured and monitored infrastructure](https://imgur.com/076VHlv)
+
 ## Description
 This web infrastructure consists of three servers designed to ensure security, monitoring, and encrypted traffic transmission.
 
