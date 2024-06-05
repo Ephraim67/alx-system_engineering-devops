@@ -2,7 +2,7 @@
 
 ## Description
 
-The major components, including the web server, application server, and database servers, have been relocated to separate GNU/Linux servers. SSL protection is not terminated at the load balancer, and each server's network is fortified with a firewall while being actively monitored.
+The major components, including the web server, application server, and database servers, have been relocated to separate GNU/Linux servers. SSL protection is not terminated at the load balancer, and each server's network is fortified with a firewall while being actively monitored. More information can be found ![Here](https://www.f5.com/glossary)
 
 ## Specifics About This Infracstructure
 
