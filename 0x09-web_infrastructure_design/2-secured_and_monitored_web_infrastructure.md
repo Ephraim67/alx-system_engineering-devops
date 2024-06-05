@@ -1,4 +1,4 @@
-# Secured and Monitored Web Infrastructure
+## Secured and Monitored Web Infrastructure
 
 ## Description
 This web infrastructure consists of three servers designed to ensure security, monitoring, and encrypted traffic transmission.
@@ -26,3 +26,15 @@ This web infrastructure consists of three servers designed to ensure security, m
 
 ## Monitoring Web Server QPS (Queries Per Second)
 - Measure of how many requests the web server handles per second. The monitoring client on the web server to collect and send metrics to the monitoring service. Configure the monitoring tool to specifically track and report on QPS.
+
+## Identified Issues with the Infrastructure
+
+## Terminating SSL at the Load Balancer
+-  The traffic between the load balancer and the backend servers is unencrypted, potentially exposing sensitive data to internal threats, if SSl is terminated at the Load Balancer.
+-  Use end-to-end encryption by configuring SSL on both the load balancer and the backend servers to mitigate this type of vulnerability.
+
+## Single MySQL Server for Writes
+-  One MySQL server capable of accepting writes creates a single point of failure. If the primary server goes down, write operations cannot be performed. It's important to  implement MySQL replication with a primary-replica setup or use a distributed database system to ensure high availability and fault tolerance.
+
+## Servers with All Components
+- Combining the database, web server, and application server on the same machine can lead to resource contention, where different components compete for the same resources (CPU, memory, I/O). Separate the components onto different servers or use containerization/virtualization to isolate resources and manage them more effectively.
