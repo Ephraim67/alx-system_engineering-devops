@@ -1,4 +1,5 @@
 ## Scaled Up Web Infracstructure
+![Scaled Up Web Infrastructure](https://imgur.com/undefined)
 
 ## Description
 
