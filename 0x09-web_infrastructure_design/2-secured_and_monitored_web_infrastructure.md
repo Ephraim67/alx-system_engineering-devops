@@ -25,4 +25,4 @@ This web infrastructure consists of three servers designed to ensure security, m
 - Distributes incoming traffic across the web server and application server to ensure balanced load and high availability.
 
 ## Monitoring Web Server QPS (Queries Per Second)
- Measure of how many requests the web server handles per second. The monitoring client on the web server to collect and send metrics to the monitoring service. Configure the monitoring tool to specifically track and report on QPS.
+- Measure of how many requests the web server handles per second. The monitoring client on the web server to collect and send metrics to the monitoring service. Configure the monitoring tool to specifically track and report on QPS.
