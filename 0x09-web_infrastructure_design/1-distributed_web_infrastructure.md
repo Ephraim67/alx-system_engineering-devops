@@ -1,5 +1,7 @@
 # Distributed web infrastructure 
 
+![Image of a distributed web infrastructure](https://imgur.com/qx5NTwb)
+
 # Description
 *This distributed web infrastructure reduces primary server traffic by utilizing a load balancer to distribute the load between a primary and a replica server.*
 
