@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# This script displays the time for 12 hours and 59 minuites:
+# displays hours from 0 to 12
+# displays minuites from 1 to 59
+
+# Increment hours by 0
+hour=0
+
+# Loop through hours from 0 to 12
+while [ $hour -le 12 ]; do
+	# Initialize minuites
+	minuite=1
+
+	# Loop through minuites from 1 to 59
+	while [ $minuite -le 59 ]; do
+		echo "$hour:$minuite"
+		minuite=$((minuite + 1))
+	done
+
+	hour=$((hour + 1))
+done
